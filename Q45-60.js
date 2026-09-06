@@ -118,8 +118,11 @@ console.log(res3)
 // a.
 let val4 = 12 , val5 = 14 , val6 = 18
 let res4 = val4 > val5 ? val4 : val5
+console.log(res4)
+
 // b.
 let res5 = val4 > val5 ? val4 : val5 > val6 ? val5 : val6 
+console.log(res5)
 
 // 60. print "Hello User" if user logged in, "Hello Guest" in not logged in  
 let greeting = "Hello"
